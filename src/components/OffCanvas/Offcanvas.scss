@@ -1,0 +1,14 @@
+.offcanvas {
+  &__input + &__input {
+    margin-top: 16px;
+  }
+
+  &__input {
+    border-bottom: 2px solid gray;
+  }
+
+  &__btn {
+    margin-top: 40px;
+    float: right;
+  }
+}

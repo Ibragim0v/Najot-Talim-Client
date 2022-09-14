@@ -1,0 +1,36 @@
+.sidebar {
+  flex: 1;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    #17265b,
+    #17285e,
+    #162a61,
+    #152c65,
+    #142e68,
+    #13326d,
+    #123571,
+    #113976,
+    #103f7d,
+    #0f4583,
+    #0d4b8a,
+    #0b5190
+  );
+
+  &__wrapper {
+    padding: 10px;
+  }
+
+  &__icon {
+    color: #fff;
+  }
+
+  &__logout {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+  }
+}

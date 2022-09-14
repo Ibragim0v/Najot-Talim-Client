@@ -1,0 +1,15 @@
+.queue {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  &__active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 52px;
+    border-radius: 10px;
+    color: #fff;
+  }
+}

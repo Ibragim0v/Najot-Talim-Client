@@ -1,0 +1,67 @@
+.courses {
+  display: flex;
+
+  &__wrapper {
+    flex: 16;
+    padding: 25px;
+  }
+
+  &__cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+
+  &__btn {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(65, 188, 21);
+    display: flex;
+    padding: 10px 30px;
+    gap: 5px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    border: 2px solid gray;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px;
+  }
+
+  &__txt {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  &__price {
+    text-align: center;
+  }
+
+  &__body {
+    width: 350px;
+  }
+
+  &__btn--update {
+    background-color: rgb(92, 133, 158);
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+  }
+
+  &__btn--delete {
+    background-color: rgb(136, 12, 12);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+  }
+}
